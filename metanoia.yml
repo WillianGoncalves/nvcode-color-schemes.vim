@@ -319,21 +319,21 @@ lightline:
     - "fg green"
     - "fg special_grey"
   ReplaceLeft:
-    - "fg orange"
+    - "fg red"
     - "fg special_grey"
   ReplaceRight:
-    - "fg orange"
+    - "fg red"
     - "fg special_grey"
   VisualLeft:
-    - "fg blue"
+    - "fg yellow"
     - "fg special_grey"
   VisualRight:
-    - "fg blue"
+    - "fg yellow"
     - "fg special_grey"
   InactiveLeft: ""
   InactiveRight: ""
   InactiveMiddle: ""
-  TablineLeft: "fg bg_darken"
+  TablineLeft: "line_grey bg_darken"
   TablineMiddle: "bg_darken"
   TablineRight: ""
-  TablineTabsel: "fg bg"
+  TablineTabsel: "bg_darken line_grey"
