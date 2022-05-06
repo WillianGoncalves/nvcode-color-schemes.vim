@@ -45,7 +45,7 @@ hi CursorLineNr guifg=#f1f1f0 ctermfg=255 guibg=NONE ctermbg=NONE gui=bold cterm
 hi SignColumn guifg=NONE ctermfg=NONE guibg=#262626 ctermbg=235 gui=NONE cterm=NONE
 hi Conceal guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#3a3d4d ctermbg=238 gui=NONE cterm=NONE
-hi CursorLine guifg=NONE ctermfg=NONE guibg=#3a3d4d ctermbg=238 gui=NONE cterm=NONE
+hi CursorLine guifg=NONE ctermfg=NONE guibg=#232323 ctermbg=235 gui=NONE cterm=NONE
 hi Directory guifg=#7587a6 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffAdd guifg=#282a36 ctermfg=236 guibg=#849c84 ctermbg=108 gui=NONE cterm=NONE
 hi DiffChange guifg=#d3b373 ctermfg=180 guibg=NONE ctermbg=NONE gui=underline cterm=underline
@@ -185,6 +185,11 @@ hi CocExplorerFileReadonly guifg=#b294bb ctermfg=139 guibg=NONE ctermbg=NONE gui
 hi CocExplorerFileModified guifg=#b294bb ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerFileHidden guifg=#606580 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerHelpLine guifg=#b294bb ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CocFloating guifg=NONE ctermfg=NONE guibg=#282c34 ctermbg=236 gui=NONE cterm=NONE
+hi CocErrorFloat guifg=#bf4040 ctermfg=131 guibg=#282c34 ctermbg=236 gui=NONE cterm=NONE
+hi CocWarningFloat guifg=#d3b373 ctermfg=180 guibg=#282c34 ctermbg=236 gui=NONE cterm=NONE
+hi CocInfoFloat guifg=#f1f1f0 ctermfg=255 guibg=#282c34 ctermbg=236 gui=NONE cterm=NONE
+hi CocHintFloat guifg=#f1f1f0 ctermfg=255 guibg=#282c34 ctermbg=236 gui=NONE cterm=NONE
 hi EasyMotionTarget guifg=#bf4040 ctermfg=131 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi EasyMotionTarget2First guifg=#bf4040 ctermfg=131 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi EasyMotionTarget2Second guifg=#bf4040 ctermfg=131 guibg=NONE ctermbg=NONE gui=bold cterm=bold

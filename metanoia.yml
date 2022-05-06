@@ -225,6 +225,11 @@ highlights:
     CocExplorerFileModified: "purple"
     CocExplorerFileHidden: "line_grey"
     CocExplorerHelpLine: "purple"
+    CocFloating: "- menu_grey"
+    CocErrorFloat: "error_red menu_grey"
+    CocWarningFloat: "yellow menu_grey"
+    CocInfoFloat: "white menu_grey"
+    CocHintFloat: "white menu_grey"
     # -- END CoC --
 
     # -- START Easymotion --
