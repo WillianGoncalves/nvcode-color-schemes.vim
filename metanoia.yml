@@ -6,6 +6,7 @@ information:
 palette:
     fg: "#eff0eb"
     bg: "#262626"
+    bg_darken: "#232323"
     red: "#CF7777"
     error_red: "#bf4040"
     green: "#849c84"
@@ -64,7 +65,7 @@ highlights:
     SignColumn: "- bg"
     Conceal: ""
     CursorColumn: "- cursor_grey"
-    CursorLine: "- cursor_grey"
+    CursorLine: "- bg_darken"
     Directory: "blue"
     DiffAdd: "black green"
     DiffChange: "yellow - u"
@@ -300,3 +301,39 @@ highlights:
     VimwikiTag: "orange"
     VimwikiMarkers: "bg"
     VimWikiMarkers: "special_grey"
+
+lightline:
+  NormalLeft:
+    - "bg blue"
+    - "fg special_grey"
+  NormalRight:
+    - "bg blue"
+    - "fg special_grey"
+  NormalMiddle: "line_grey bg"
+  NormalError: "bg error_red"
+  NormalWarning: "bg yellow"
+  InsertLeft:
+    - "fg green"
+    - "fg special_grey"
+  InsertRight:
+    - "fg green"
+    - "fg special_grey"
+  ReplaceLeft:
+    - "fg orange"
+    - "fg special_grey"
+  ReplaceRight:
+    - "fg orange"
+    - "fg special_grey"
+  VisualLeft:
+    - "fg blue"
+    - "fg special_grey"
+  VisualRight:
+    - "fg blue"
+    - "fg special_grey"
+  InactiveLeft: ""
+  InactiveRight: ""
+  InactiveMiddle: ""
+  TablineLeft: "fg bg_darken"
+  TablineMiddle: "bg_darken"
+  TablineRight: ""
+  TablineTabsel: "fg bg"
