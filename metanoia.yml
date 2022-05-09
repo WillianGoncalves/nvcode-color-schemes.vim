@@ -310,7 +310,7 @@ highlights:
 lightline:
   NormalLeft:
     - "bg blue"
-    - "fg special_grey"
+    - "orange special_grey"
   NormalRight:
     - "bg blue"
     - "fg special_grey"
@@ -319,19 +319,19 @@ lightline:
   NormalWarning: "bg yellow"
   InsertLeft:
     - "fg green"
-    - "fg orange"
+    - "orange special_grey"
   InsertRight:
     - "fg green"
     - "fg special_grey"
   ReplaceLeft:
     - "fg red"
-    - "fg special_grey"
+    - "orange special_grey"
   ReplaceRight:
     - "fg red"
     - "fg special_grey"
   VisualLeft:
     - "fg yellow"
-    - "fg special_grey"
+    - "orange special_grey"
   VisualRight:
     - "fg yellow"
     - "fg special_grey"
