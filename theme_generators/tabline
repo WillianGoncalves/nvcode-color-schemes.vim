@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
 require 'yaml'
-require './utils/highlight.rb'
-require './utils/tabline_highlight.rb'
+require_relative './utils/highlight.rb'
+require_relative './utils/tabline_highlight.rb'
 
 $data = YAML.load(ARGF, symbolize_names: true)
 
