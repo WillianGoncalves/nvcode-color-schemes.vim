@@ -65,7 +65,7 @@ hi PmenuSbar guifg=NONE ctermfg=NONE guibg=#3b4048 ctermbg=238 gui=NONE cterm=NO
 hi PmenuThumb guifg=NONE ctermfg=NONE guibg=#f1f1f0 ctermbg=255 gui=NONE cterm=NONE
 hi Question guifg=#b294bb ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi QuickFixLine guifg=#282a36 ctermfg=236 guibg=#606580 ctermbg=60 gui=NONE cterm=NONE
-hi Search guifg=#282a36 ctermfg=236 guibg=#9b9eb3 ctermbg=248 gui=NONE cterm=NONE
+hi Search guifg=#282a36 ctermfg=236 guibg=#fed330 ctermbg=221 gui=NONE cterm=NONE
 hi SpecialKey guifg=#3b4048 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellBad guifg=#bf4040 ctermfg=131 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi SpellCap guifg=#d3b373 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
