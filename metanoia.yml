@@ -5,8 +5,8 @@ information:
 
 palette:
     fg: "#eff0eb"
-    bg: "#262626"
-    bg_darken: "#232323"
+    bg: "#1d1d1d"
+    bg_darken: "#191919"
     red: "#CF7777"
     error_red: "#bf4040"
     green: "#849c84"

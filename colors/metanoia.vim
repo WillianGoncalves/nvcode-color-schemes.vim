@@ -7,7 +7,7 @@ if exists('syntax_on')
 endif
 let g:colors_name='metanoia'
 
-hi Normal guifg=#7587a6 ctermfg=103 guibg=#262626 ctermbg=235 gui=NONE cterm=NONE
+hi Normal guifg=#7587a6 ctermfg=103 guibg=#1d1d1d ctermbg=234 gui=NONE cterm=NONE
 hi Comment guifg=#606580 ctermfg=60 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Constant guifg=#d3b373 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#849c84 ctermfg=108 guibg=NONE ctermbg=NONE gui=italic cterm=italic
@@ -42,10 +42,10 @@ hi Underlined guifg=#7587a6 ctermfg=103 gui=underline cterm=underline
 hi Cursor guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#3a3d4d ctermbg=238 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#f1f1f0 ctermfg=255 guibg=NONE ctermbg=NONE gui=bold cterm=bold
-hi SignColumn guifg=NONE ctermfg=NONE guibg=#262626 ctermbg=235 gui=NONE cterm=NONE
+hi SignColumn guifg=NONE ctermfg=NONE guibg=#1d1d1d ctermbg=234 gui=NONE cterm=NONE
 hi Conceal guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#3a3d4d ctermbg=238 gui=NONE cterm=NONE
-hi CursorLine guifg=NONE ctermfg=NONE guibg=#232323 ctermbg=235 gui=NONE cterm=NONE
+hi CursorLine guifg=NONE ctermfg=NONE guibg=#191919 ctermbg=234 gui=NONE cterm=NONE
 hi Directory guifg=#7587a6 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffAdd guifg=#282a36 ctermfg=236 guibg=#849c84 ctermbg=108 gui=NONE cterm=NONE
 hi DiffChange guifg=#d3b373 ctermfg=180 guibg=NONE ctermbg=NONE gui=underline cterm=underline
@@ -77,7 +77,7 @@ hi StatusLineTerm guifg=#f1f1f0 ctermfg=255 guibg=#3a3d4d ctermbg=238 gui=NONE c
 hi StatusLineTermNC guifg=#3a3d4d ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TabLine guifg=#606580 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TabLineSel guifg=#f1f1f0 ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TabLineFill guifg=NONE ctermfg=NONE guibg=#262626 ctermbg=235 gui=NONE cterm=NONE
+hi TabLineFill guifg=NONE ctermfg=NONE guibg=#1d1d1d ctermbg=234 gui=NONE cterm=NONE
 hi Terminal guifg=#f1f1f0 ctermfg=255 guibg=#282a36 ctermbg=236 gui=NONE cterm=NONE
 hi Visual guifg=NONE ctermfg=NONE guibg=#3f5263 ctermbg=239 gui=NONE cterm=NONE
 hi VisualNOS guifg=#3f5263 ctermfg=239 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -228,5 +228,5 @@ hi VimwikiHeaderChar guifg=#3b4048 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE 
 hi VimwikiHR guifg=#d3b373 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VimwikiList guifg=#b98046 ctermfg=137 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VimwikiTag guifg=#b98046 ctermfg=137 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi VimwikiMarkers guifg=#262626 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi VimwikiMarkers guifg=#1d1d1d ctermfg=234 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VimWikiMarkers guifg=#3b4048 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
