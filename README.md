@@ -13,6 +13,10 @@
 - snazzy (Based on [hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy/) by [Sindre Sorhus](https://sindresorhus.com))
 - [xoria](./assets/xoria.png) (Based on [xoria-256](https://github.com/vim-scripts/xoria256.vim))
 
+### Testing
+
+To test the highlights, run `:so $VIMRUNTIME/syntax/hitest.vim`
+
 ### Credit
 
 The generate script comes from this repo: https://github.com/felipec/vim-felipec
