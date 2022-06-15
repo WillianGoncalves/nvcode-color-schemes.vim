@@ -87,15 +87,15 @@ hi VisualNOS guifg=#323c4d ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NO
 hi WarningMsg guifg=#b15e7c ctermfg=132 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WildMenu guifg=#232936 ctermfg=236 guibg=#608cc3 ctermbg=68 gui=NONE cterm=NONE
 hi TSError guifg=#b15e7c ctermfg=132 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSPunctDelimiter guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=italic cterm=italic
-hi TSPunctBracket guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=italic cterm=italic
-hi TSPunctSpecial guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi TSPunctDelimiter guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSPunctBracket guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSPunctSpecial guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstant guifg=#b15e7c ctermfg=132 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSConstBuiltin guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi TSConstBuiltin guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstMacro guifg=#608cc3 ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSStringRegex guifg=#709d6c ctermfg=71 guibg=NONE ctermbg=NONE gui=italic cterm=italic
-hi TSString guifg=#709d6c ctermfg=71 guibg=NONE ctermbg=NONE gui=italic cterm=italic
-hi TSStringEscape guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi TSStringRegex guifg=#709d6c ctermfg=71 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSString guifg=#709d6c ctermfg=71 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSStringEscape guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSCharacter guifg=#709d6c ctermfg=71 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSNumber guifg=#b15e7c ctermfg=132 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSBoolean guifg=#b15e7c ctermfg=132 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -103,7 +103,7 @@ hi TSFloat guifg=#b15e7c ctermfg=132 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSAnnotation guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSAttribute guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSNamespace guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSFuncBuiltin guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi TSFuncBuiltin guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSFunction guifg=#b5a262 ctermfg=143 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSFuncMacro guifg=#608cc3 ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSParameter guifg=#8f72bf ctermfg=97 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -111,7 +111,7 @@ hi TSParameterReference guifg=#8f72bf ctermfg=97 guibg=NONE ctermbg=NONE gui=NON
 hi TSMethod guifg=#b5a262 ctermfg=143 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSField guifg=#8f72bf ctermfg=97 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSProperty guifg=#8f72bf ctermfg=97 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSConstructor guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi TSConstructor guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConditional guifg=#608cc3 ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSRepeat guifg=#608cc3 ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSLabel guifg=#608cc3 ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -124,7 +124,7 @@ hi TSType guifg=#b3785d ctermfg=137 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSStructure guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSInclude guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSVariable guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSVariableBuiltin guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi TSVariableBuiltin guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSText guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSStrong guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi TSEmphasis guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=italic cterm=italic
@@ -134,7 +134,7 @@ hi TSLiteral guifg=#709d6c ctermfg=71 guibg=NONE ctermbg=NONE gui=italic cterm=i
 hi TSURI guifg=#608cc3 ctermfg=68 gui=underline cterm=underline
 hi TSTag guifg=#608cc3 ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSNone guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSTagDelimiter guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi TSTagDelimiter guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlArg guifg=#b5a262 ctermfg=143 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi htmlBold guifg=#b5a262 ctermfg=143 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi htmlEndTag guifg=#8f72bf ctermfg=97 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
