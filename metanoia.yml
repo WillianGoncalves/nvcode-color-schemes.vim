@@ -290,31 +290,31 @@ highlights:
 lightline:
   NormalLeft:
     - "bg blue"
-    - "orange special_grey"
+    - "orange bg_darken"
   NormalRight:
     - "bg blue"
-    - "fg special_grey"
-  NormalMiddle: "line_grey bg"
+    - "orange bg_darken"
+  NormalMiddle: "line_grey bg_darken"
   NormalError: "bg error_red"
   NormalWarning: "bg yellow"
   InsertLeft:
     - "fg green"
-    - "orange special_grey"
+    - "orange bg_darken"
   InsertRight:
     - "fg green"
-    - "fg special_grey"
+    - "orange bg_darken"
   ReplaceLeft:
     - "fg red"
-    - "fg orange"
+    - "orange bg_darken"
   ReplaceRight:
     - "fg red"
-    - "fg special_grey"
+    - "orange bg_darken"
   VisualLeft:
     - "fg yellow"
-    - "orange special_grey"
+    - "orange bg_darken"
   VisualRight:
     - "fg yellow"
-    - "fg special_grey"
+    - "orange bg_darken"
   InactiveLeft: ""
   InactiveRight: ""
   InactiveMiddle: ""
