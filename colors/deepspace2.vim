@@ -206,11 +206,11 @@ hi CocExplorerFileReadonly guifg=#8f72bf ctermfg=97 guibg=NONE ctermbg=NONE gui=
 hi CocExplorerFileModified guifg=#8f72bf ctermfg=97 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerFileHidden guifg=#323c4d ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerHelpLine guifg=#8f72bf ctermfg=97 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocFloating guifg=NONE ctermfg=NONE guibg=#323c4d ctermbg=237 gui=NONE cterm=NONE
-hi CocErrorFloat guifg=#b15e7c ctermfg=132 guibg=#323c4d ctermbg=237 gui=NONE cterm=NONE
-hi CocWarningFloat guifg=#b5a262 ctermfg=143 guibg=#323c4d ctermbg=237 gui=NONE cterm=NONE
-hi CocInfoFloat guifg=#9aa7bd ctermfg=109 guibg=#323c4d ctermbg=237 gui=NONE cterm=NONE
-hi CocHintFloat guifg=#9aa7bd ctermfg=109 guibg=#323c4d ctermbg=237 gui=NONE cterm=NONE
+hi CocFloating guifg=NONE ctermfg=NONE guibg=#1b202a ctermbg=235 gui=NONE cterm=NONE
+hi CocErrorFloat guifg=#b15e7c ctermfg=132 guibg=#1b202a ctermbg=235 gui=NONE cterm=NONE
+hi CocWarningFloat guifg=#b5a262 ctermfg=143 guibg=#1b202a ctermbg=235 gui=NONE cterm=NONE
+hi CocInfoFloat guifg=#9aa7bd ctermfg=109 guibg=#1b202a ctermbg=235 gui=NONE cterm=NONE
+hi CocHintFloat guifg=#9aa7bd ctermfg=109 guibg=#1b202a ctermbg=235 gui=NONE cterm=NONE
 hi EasyMotionTarget guifg=#b15e7c ctermfg=132 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi EasyMotionTarget2First guifg=#b15e7c ctermfg=132 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi EasyMotionTarget2Second guifg=#b15e7c ctermfg=132 guibg=NONE ctermbg=NONE gui=bold cterm=bold
