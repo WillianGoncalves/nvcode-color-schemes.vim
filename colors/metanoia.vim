@@ -33,7 +33,7 @@ hi FoldColumn guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi Folded guifg=#606580 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Function guifg=#d3b373 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Identifier guifg=#7587a6 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi IncSearch guifg=#3f5263 ctermfg=239 guibg=#606580 ctermbg=60 gui=NONE cterm=NONE
+hi IncSearch guifg=#282a36 ctermfg=236 guibg=#32ff7e ctermbg=84 gui=NONE cterm=NONE
 hi Include guifg=#b294bb ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Keyword guifg=#7587a6 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Label guifg=#7587a6 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -185,7 +185,8 @@ hi CocExplorerFileReadonly guifg=#b294bb ctermfg=139 guibg=NONE ctermbg=NONE gui
 hi CocExplorerFileModified guifg=#b294bb ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerFileHidden guifg=#606580 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CocExplorerHelpLine guifg=#b294bb ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CocFloating guifg=NONE ctermfg=NONE guibg=#282c34 ctermbg=236 gui=NONE cterm=NONE
+hi CocFloating guifg=NONE ctermfg=NONE guibg=#1d1d1d ctermbg=234 gui=NONE cterm=NONE
+hi CocFloatDividingLine guifg=#282a36 ctermfg=236 guibg=#1d1d1d ctermbg=234 gui=NONE cterm=NONE
 hi CocErrorFloat guifg=#bf4040 ctermfg=131 guibg=#282c34 ctermbg=236 gui=NONE cterm=NONE
 hi CocWarningFloat guifg=#d3b373 ctermfg=180 guibg=#282c34 ctermbg=236 gui=NONE cterm=NONE
 hi CocInfoFloat guifg=#f1f1f0 ctermfg=255 guibg=#282c34 ctermbg=236 gui=NONE cterm=NONE
