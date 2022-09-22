@@ -5,7 +5,7 @@ hi clear
 if exists('syntax_on')
   syntax reset
 endif
-let g:colors_name='deepspace'
+let g:colors_name='deepspace2'
 
 hi Boolean guifg=#b15e7c ctermfg=132 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Character guifg=#709d6c ctermfg=71 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -84,7 +84,7 @@ hi Underlined guifg=#608cc3 ctermfg=68 gui=underline cterm=underline
 hi VertSplit guifg=#232936 ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Visual guifg=#9aa7bd ctermfg=109 guibg=#323c4d ctermbg=237 gui=NONE cterm=NONE
 hi VisualNOS guifg=#323c4d ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi WarningMsg guifg=#b15e7c ctermfg=132 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi WarningMsg guifg=#b5a262 ctermfg=143 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WildMenu guifg=#232936 ctermfg=236 guibg=#608cc3 ctermbg=68 gui=NONE cterm=NONE
 hi TSError guifg=#b15e7c ctermfg=132 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSPunctDelimiter guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

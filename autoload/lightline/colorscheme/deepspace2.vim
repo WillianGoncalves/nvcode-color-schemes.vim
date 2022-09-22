@@ -18,5 +18,5 @@ let s:p.tabline.left = [ [ '#9aa7bd', '#323c4d' ] ]
 let s:p.tabline.middle = [ [ '#51617d', '#232936' ] ]
 let s:p.tabline.right = [ [ '#232936', '#608cc3' ] ]
 let s:p.tabline.tabsel = [ [ '#232936', '#608cc3' ] ]
-let g:lightline#colorscheme#deepspace#palette = lightline#colorscheme#fill(s:p)
+let g:lightline#colorscheme#deepspace2#palette = lightline#colorscheme#fill(s:p)
 endif

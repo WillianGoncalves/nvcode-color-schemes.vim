@@ -1,6 +1,6 @@
 # https://github.com/tyrannicaltoucan/vim-deep-space/blob/master/colors/deep-space.vim
 information:
-  name: deepspace
+  name: deepspace2
   background: dark
   author: ""
 
@@ -97,7 +97,7 @@ highlights:
   VertSplit: "gray2"
   Visual: "gray5 gray3"
   VisualNOS: "gray3"
-  WarningMsg: "red"
+  WarningMsg: "yellow"
   WildMenu: "gray2 blue"
 
   TSError: "red"
