@@ -9,7 +9,7 @@ let g:colors_name='deepspace2'
 
 hi Boolean guifg=#b15e7c ctermfg=132 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Character guifg=#709d6c ctermfg=71 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi CmpItemAbbrMatchDefault guifg=#32ff7e ctermfg=84 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CmpItemAbbrMatch guifg=#32ff7e ctermfg=84 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#51617d ctermbg=60 gui=NONE cterm=NONE
 hi Comment guifg=#51617d ctermfg=60 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Conceal guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
