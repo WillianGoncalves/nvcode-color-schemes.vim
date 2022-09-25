@@ -9,6 +9,7 @@ let g:colors_name='deepspace2'
 
 hi Boolean guifg=#b15e7c ctermfg=132 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Character guifg=#709d6c ctermfg=71 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CmpItemAbbrMatchDefault guifg=#32ff7e ctermfg=84 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#51617d ctermbg=60 gui=NONE cterm=NONE
 hi Comment guifg=#51617d ctermfg=60 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Conceal guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -29,11 +30,12 @@ hi Error guifg=#b15e7c ctermfg=132 guibg=#1b202a ctermbg=235 gui=bold,reverse ct
 hi ErrorMsg guifg=#b15e7c ctermfg=132 guibg=#1b202a ctermbg=235 gui=bold cterm=bold
 hi Exception guifg=#608cc3 ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Float guifg=#b15e7c ctermfg=132 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi FloatBorder guifg=#51617d ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FoldColumn guifg=#56adb7 ctermfg=73 guibg=#1b202a ctermbg=235 gui=NONE cterm=NONE
 hi Folded guifg=#323c4d ctermfg=237 guibg=#1b202a ctermbg=235 gui=NONE cterm=NONE
 hi Function guifg=#b5a262 ctermfg=143 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Identifier guifg=#8f72bf ctermfg=97 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi IncSearch guifg=#1b202a ctermfg=235 guibg=#b5a262 ctermbg=143 gui=NONE cterm=NONE
+hi IncSearch guifg=#1b202a ctermfg=235 guibg=#32ff7e ctermbg=84 gui=NONE cterm=NONE
 hi Include guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Keyword guifg=#608cc3 ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Label guifg=#608cc3 ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -44,6 +46,7 @@ hi ModeMsg guifg=#709d6c ctermfg=71 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MoreMsg guifg=#709d6c ctermfg=71 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NonText guifg=#51617d ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Normal guifg=#9aa7bd ctermfg=109 guibg=#1b202a ctermbg=235 gui=NONE cterm=NONE
+hi NormalFloat guifg=#9aa7bd ctermfg=109 guibg=#1b202a ctermbg=235 gui=NONE cterm=NONE
 hi Number guifg=#b15e7c ctermfg=132 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Operator guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Pmenu guifg=#9aa7bd ctermfg=109 guibg=#323c4d ctermbg=237 gui=NONE cterm=NONE
@@ -55,7 +58,7 @@ hi PreProc guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Question guifg=#709d6c ctermfg=71 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi QuickFixLine guifg=#1b202a ctermfg=235 guibg=#b5a262 ctermbg=143 gui=NONE cterm=NONE
 hi Repeat guifg=#608cc3 ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Search guifg=#1b202a ctermfg=235 guibg=#b5a262 ctermbg=143 gui=NONE cterm=NONE
+hi Search guifg=#1b202a ctermfg=235 guibg=#32ff7e ctermbg=84 gui=NONE cterm=NONE
 hi SignColumn guifg=#232936 ctermfg=236 guibg=#1b202a ctermbg=235 gui=NONE cterm=NONE
 hi Special guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi SpecialComment guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=italic cterm=italic

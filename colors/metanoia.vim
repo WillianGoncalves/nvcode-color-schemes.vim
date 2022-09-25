@@ -9,6 +9,7 @@ let g:colors_name='metanoia'
 
 hi Boolean guifg=#7587a6 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Character guifg=#849c84 ctermfg=108 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi CmpItemAbbrMatchDefault guifg=#32ff7e ctermfg=84 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#3a3d4d ctermbg=238 gui=NONE cterm=NONE
 hi Comment guifg=#606580 ctermfg=60 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Conceal guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -29,6 +30,7 @@ hi Error guifg=#bf4040 ctermfg=131 guibg=NONE ctermbg=NONE gui=bold,reverse cter
 hi ErrorMsg guifg=#bf4040 ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Exception guifg=#b294bb ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Float guifg=#b98046 ctermfg=137 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi FloatBorder guifg=#606580 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FoldColumn guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Folded guifg=#606580 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Function guifg=#d3b373 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -42,6 +44,7 @@ hi Macro guifg=#b294bb ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=#7587a6 ctermfg=103 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi NonText guifg=#3b4048 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Normal guifg=#7587a6 ctermfg=103 guibg=#1d1d1d ctermbg=234 gui=NONE cterm=NONE
+hi NormalFloat guifg=#7587a6 ctermfg=103 guibg=#1d1d1d ctermbg=234 gui=NONE cterm=NONE
 hi Number guifg=#b98046 ctermfg=137 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Operator guifg=#b294bb ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Pmenu guifg=#f1f1f0 ctermfg=255 guibg=#282c34 ctermbg=236 gui=NONE cterm=NONE

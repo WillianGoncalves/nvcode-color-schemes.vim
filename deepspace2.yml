@@ -18,10 +18,12 @@ palette:
   cyan  : '#56adb7'
   orange: '#b3785d'
   pink  : '#c47ebd'
+  search: '#32ff7e'
 
 highlights:
   Boolean: "red"
   Character: "green"
+  CmpItemAbbrMatchDefault: "search"
   ColorColumn: "- gray4"
   Comment: "gray4 - i"
   Conceal: "- -"
@@ -42,11 +44,12 @@ highlights:
   ErrorMsg: "red gray1 b"
   Exception: "blue"
   Float: "red"
+  FloatBorder: "gray4"
   FoldColumn: "cyan gray1"
   Folded: "gray3 gray1"
   Function: "yellow"
   Identifier: "purple"
-  IncSearch: "gray1 yellow"
+  IncSearch: "gray1 search"
   Include: "cyan"
   Keyword: "blue"
   Label: "blue"
@@ -57,6 +60,7 @@ highlights:
   MoreMsg: "green"
   NonText: "gray4"
   Normal: "gray5 gray1"
+  NormalFloat: "gray5 gray1"
   Number: "red"
   Operator: "cyan"
   Pmenu: "gray5 gray3"
@@ -68,7 +72,7 @@ highlights:
   Question: "green"
   QuickFixLine: "gray1 yellow"
   Repeat: "blue"
-  Search: "gray1 yellow"
+  Search: "gray1 search"
   SignColumn: "gray2 gray1"
   Special: "cyan - i"
   SpecialComment: "cyan - i"
