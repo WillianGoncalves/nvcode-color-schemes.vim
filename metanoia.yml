@@ -28,7 +28,7 @@ palette:
 highlights:
   Boolean: "blue"
   Character: "green"
-  CmpItemAbbrMatchDefault: "search"
+  CmpItemAbbrMatch: "search"
   ColorColumn: "- cursor_grey"
   Comment: "line_grey - i"
   Conceal: ""

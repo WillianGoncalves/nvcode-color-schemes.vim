@@ -23,7 +23,7 @@ palette:
 highlights:
   Boolean: "red"
   Character: "green"
-  CmpItemAbbrMatchDefault: "search"
+  CmpItemAbbrMatch: "search"
   ColorColumn: "- gray4"
   Comment: "gray4 - i"
   Conceal: "- -"
