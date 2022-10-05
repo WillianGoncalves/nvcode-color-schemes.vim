@@ -20,10 +20,10 @@ hi CursorColumn guifg=NONE ctermfg=NONE guibg=#3a3d4d ctermbg=238 gui=NONE cterm
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#191919 ctermbg=234 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#f1f1f0 ctermfg=255 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi Define guifg=#b294bb ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiffAdd guifg=#282a36 ctermfg=236 guibg=#849c84 ctermbg=108 gui=NONE cterm=NONE
-hi DiffChange guifg=#d3b373 ctermfg=180 guibg=NONE ctermbg=NONE gui=underline cterm=underline
-hi DiffDelete guifg=#282a36 ctermfg=236 guibg=#cf7777 ctermbg=174 gui=NONE cterm=NONE
-hi DiffText guifg=#282a36 ctermfg=236 guibg=#606580 ctermbg=60 gui=NONE cterm=NONE
+hi DiffAdd guifg=#849c84 ctermfg=108 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiffChange guifg=#d3b373 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiffDelete guifg=#cf7777 ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiffText guifg=#606580 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Directory guifg=#7587a6 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#282a36 ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Error guifg=#bf4040 ctermfg=131 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse
