@@ -67,6 +67,9 @@ hi SpellLocal guifg=#d3b373 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi SpellRare guifg=#d3b373 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Statement guifg=#b294bb ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StatusLine guifg=#f1f1f0 ctermfg=255 guibg=#3a3d4d ctermbg=238 gui=NONE cterm=NONE
+hi StatusLineDiffAdd guifg=#849c84 ctermfg=108 guibg=#191919 ctermbg=234 gui=NONE cterm=NONE
+hi StatusLineDiffChange guifg=#d3b373 ctermfg=180 guibg=#191919 ctermbg=234 gui=NONE cterm=NONE
+hi StatusLineDiffDelete guifg=#cf7777 ctermfg=174 guibg=#191919 ctermbg=234 gui=NONE cterm=NONE
 hi StatusLineNC guifg=#606580 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StatusLineTerm guifg=#f1f1f0 ctermfg=255 guibg=#3a3d4d ctermbg=238 gui=NONE cterm=NONE
 hi StatusLineTermNC guifg=#3a3d4d ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
