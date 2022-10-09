@@ -196,6 +196,7 @@ highlights:
   diffAdded: "green"
   diffRemoved: "red"
 
+  # used by gitsigns plugin
   GitGutterAdd: "green_signs"
   GitGutterChange: "yellow_signs"
   GitGutterDelete: "red_signs"

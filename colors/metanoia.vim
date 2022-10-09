@@ -20,8 +20,8 @@ hi CursorColumn guifg=NONE ctermfg=NONE guibg=#3a3d4d ctermbg=238 gui=NONE cterm
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#191919 ctermbg=234 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#f1f1f0 ctermfg=255 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi Define guifg=#b294bb ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiagnosticError guifg=#cf7777 ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiagnosticWarn guifg=#d3b373 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticError guifg=#ad3440 ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticWarn guifg=#e8c33c ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffAdd guifg=#282a36 ctermfg=236 guibg=#849c84 ctermbg=108 gui=NONE cterm=NONE
 hi DiffChange guifg=#d3b373 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffDelete guifg=#282a36 ctermfg=236 guibg=#cf7777 ctermbg=174 gui=NONE cterm=NONE
@@ -69,9 +69,9 @@ hi SpellLocal guifg=#d3b373 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi SpellRare guifg=#d3b373 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Statement guifg=#b294bb ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StatusLine guifg=#f1f1f0 ctermfg=255 guibg=#3a3d4d ctermbg=238 gui=NONE cterm=NONE
-hi StatusLineDiffAdd guifg=#849c84 ctermfg=108 guibg=#191919 ctermbg=234 gui=NONE cterm=NONE
-hi StatusLineDiffChange guifg=#d3b373 ctermfg=180 guibg=#191919 ctermbg=234 gui=NONE cterm=NONE
-hi StatusLineDiffDelete guifg=#cf7777 ctermfg=174 guibg=#191919 ctermbg=234 gui=NONE cterm=NONE
+hi StatusLineDiffAdd guifg=#309c46 ctermfg=71 guibg=#191919 ctermbg=234 gui=NONE cterm=NONE
+hi StatusLineDiffChange guifg=#e8c33c ctermfg=185 guibg=#191919 ctermbg=234 gui=NONE cterm=NONE
+hi StatusLineDiffDelete guifg=#ad3440 ctermfg=131 guibg=#191919 ctermbg=234 gui=NONE cterm=NONE
 hi StatusLineNC guifg=#606580 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StatusLineTerm guifg=#f1f1f0 ctermfg=255 guibg=#3a3d4d ctermbg=238 gui=NONE cterm=NONE
 hi StatusLineTermNC guifg=#3a3d4d ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -226,6 +226,9 @@ hi diffNewFile guifg=#849c84 ctermfg=108 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi diffOldFile guifg=#cf7777 ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi debugPc guifg=NONE ctermfg=NONE guibg=#7587a6 ctermbg=103 gui=NONE cterm=NONE
 hi debugBreakpoint guifg=#cf7777 ctermfg=174 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse
+hi GitGutterAdd guifg=#309c46 ctermfg=71 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitGutterChange guifg=#e8c33c ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitGutterDelete guifg=#ad3440 ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VimwikiHeader1 guifg=#b98046 ctermfg=137 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi VimwikiHeader2 guifg=#849c84 ctermfg=108 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi VimwikiHeader3 guifg=#7587a6 ctermfg=103 guibg=NONE ctermbg=NONE gui=bold cterm=bold

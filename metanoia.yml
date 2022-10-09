@@ -24,6 +24,9 @@ palette:
   menu_grey: "#282C34"
   special_grey: "#3B4048"
   vertsplit: "#181A1F"
+  red_signs: '#ad3440'
+  green_signs: '#309c46'
+  yellow_signs: '#e8c33c'
 
 highlights:
   Boolean: "blue"
@@ -39,8 +42,8 @@ highlights:
   CursorLine: "- bg_darken"
   CursorLineNr: "white - b"
   Define: "purple"
-  DiagnosticError: "red"
-  DiagnosticWarn: "yellow"
+  DiagnosticError: "red_signs"
+  DiagnosticWarn: "yellow_signs"
   DiffAdd: "black green"
   DiffChange: "yellow -"
   DiffDelete: "black red"
@@ -88,9 +91,9 @@ highlights:
   SpellRare: "yellow"
   Statement: "purple"
   StatusLine: "white cursor_grey"
-  StatusLineDiffAdd: "green bg_darken"
-  StatusLineDiffChange: "yellow bg_darken"
-  StatusLineDiffDelete: "red bg_darken"
+  StatusLineDiffAdd: "green_signs bg_darken"
+  StatusLineDiffChange: "yellow_signs bg_darken"
+  StatusLineDiffDelete: "red_signs bg_darken"
   StatusLineNC: "line_grey"
   StatusLineTerm: "white cursor_grey"
   StatusLineTermNC: "cursor_grey"
@@ -280,6 +283,11 @@ highlights:
   # ToolbarButton: "suvagray - r"
   debugPc: "- blue"
   debugBreakpoint: "red - r"
+
+  # used by gitsigns plugin
+  GitGutterAdd: "green_signs"
+  GitGutterChange: "yellow_signs"
+  GitGutterDelete: "red_signs"
 
   # VimWiki
   VimwikiHeader1: "orange - b"
