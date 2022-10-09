@@ -80,9 +80,9 @@ hi StatusLineTermNC guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cte
 hi StorageClass guifg=#b3785d ctermfg=137 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#709d6c ctermfg=71 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi Structure guifg=#608cc3 ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TabLine guifg=#323c4d ctermfg=237 guibg=#1b202a ctermbg=235 gui=NONE cterm=NONE
+hi TabLine guifg=#51617d ctermfg=60 guibg=#1b202a ctermbg=235 gui=NONE cterm=NONE
 hi TabLineFill guifg=#51617d ctermfg=60 guibg=#232936 ctermbg=236 gui=NONE cterm=NONE
-hi TabLineSel guifg=#232936 ctermfg=236 guibg=#51617d ctermbg=60 gui=NONE cterm=NONE
+hi TabLineSel guifg=#232936 ctermfg=236 guibg=#608cc3 ctermbg=68 gui=bold cterm=bold
 hi Terminal guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Title guifg=#b5a262 ctermfg=143 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Todo guifg=#c47ebd ctermfg=175 guibg=#1b202a ctermbg=235 gui=bold,italic cterm=bold,italic
