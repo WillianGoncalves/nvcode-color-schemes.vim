@@ -342,35 +342,35 @@ lightline:
 
 lualine:
   normal:
-    a: "bg blue"
+    a: "bg blue b"
     b: "orange bg_darken"
     c: "line_grey bg_darken"
     x: "line_grey bg_darken"
     y: "orange bg_darken"
     z: "bg blue"
   insert:
-    a: "bg green"
+    a: "bg green b"
     b: "orange bg_darken"
     c: "line_grey bg_darken"
     x: "line_grey bg_darken"
     y: "orange bg_darken"
     z: "bg green"
   replace:
-    a: "bg red"
+    a: "bg red b"
     b: "orange bg_darken"
     c: "line_grey bg_darken"
     x: "line_grey bg_darken"
     y: "orange bg_darken"
     z: "bg red"
   visual:
-    a: "bg yellow"
+    a: "bg yellow b"
     b: "orange bg_darken"
     c: "line_grey bg_darken"
     x: "line_grey bg_darken"
     y: "orange bg_darken"
     z: "bg yellow"
   command:
-    a: "bg purple"
+    a: "bg purple b"
     b: "orange bg_darken"
     c: "line_grey bg_darken"
     x: "line_grey bg_darken"

@@ -1,6 +1,6 @@
 return {
 	normal = {
-		a = { bg = '#7587a6', fg = '#1d1d1d', gui = 'NONE' },
+		a = { bg = '#7587a6', fg = '#1d1d1d', gui = 'bold' },
 		b = { bg = '#191919', fg = '#b98046', gui = 'NONE' },
 		c = { bg = '#191919', fg = '#606580', gui = 'NONE' },
 		x = { bg = '#191919', fg = '#606580', gui = 'NONE' },
@@ -8,7 +8,7 @@ return {
 		z = { bg = '#7587a6', fg = '#1d1d1d', gui = 'NONE' },
 	},
 	insert = {
-		a = { bg = '#849c84', fg = '#1d1d1d', gui = 'NONE' },
+		a = { bg = '#849c84', fg = '#1d1d1d', gui = 'bold' },
 		b = { bg = '#191919', fg = '#b98046', gui = 'NONE' },
 		c = { bg = '#191919', fg = '#606580', gui = 'NONE' },
 		x = { bg = '#191919', fg = '#606580', gui = 'NONE' },
@@ -16,7 +16,7 @@ return {
 		z = { bg = '#849c84', fg = '#1d1d1d', gui = 'NONE' },
 	},
 	replace = {
-		a = { bg = '#cf7777', fg = '#1d1d1d', gui = 'NONE' },
+		a = { bg = '#cf7777', fg = '#1d1d1d', gui = 'bold' },
 		b = { bg = '#191919', fg = '#b98046', gui = 'NONE' },
 		c = { bg = '#191919', fg = '#606580', gui = 'NONE' },
 		x = { bg = '#191919', fg = '#606580', gui = 'NONE' },
@@ -24,7 +24,7 @@ return {
 		z = { bg = '#cf7777', fg = '#1d1d1d', gui = 'NONE' },
 	},
 	visual = {
-		a = { bg = '#d3b373', fg = '#1d1d1d', gui = 'NONE' },
+		a = { bg = '#d3b373', fg = '#1d1d1d', gui = 'bold' },
 		b = { bg = '#191919', fg = '#b98046', gui = 'NONE' },
 		c = { bg = '#191919', fg = '#606580', gui = 'NONE' },
 		x = { bg = '#191919', fg = '#606580', gui = 'NONE' },
@@ -32,7 +32,7 @@ return {
 		z = { bg = '#d3b373', fg = '#1d1d1d', gui = 'NONE' },
 	},
 	command = {
-		a = { bg = '#b294bb', fg = '#1d1d1d', gui = 'NONE' },
+		a = { bg = '#b294bb', fg = '#1d1d1d', gui = 'bold' },
 		b = { bg = '#191919', fg = '#b98046', gui = 'NONE' },
 		c = { bg = '#191919', fg = '#606580', gui = 'NONE' },
 		x = { bg = '#191919', fg = '#606580', gui = 'NONE' },
