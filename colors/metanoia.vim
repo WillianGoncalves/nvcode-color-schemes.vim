@@ -80,7 +80,7 @@ hi String guifg=#849c84 ctermfg=108 guibg=NONE ctermbg=NONE gui=italic cterm=ita
 hi Structure guifg=#d3b373 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TabLine guifg=#606580 ctermfg=60 guibg=#1d1d1d ctermbg=234 gui=NONE cterm=NONE
 hi TabLineFill guifg=NONE ctermfg=NONE guibg=#1d1d1d ctermbg=234 gui=NONE cterm=NONE
-hi TabLineSel guifg=#606580 ctermfg=60 guibg=#7587a6 ctermbg=103 gui=bold cterm=bold
+hi TabLineSel guifg=#1d1d1d ctermfg=234 guibg=#7587a6 ctermbg=103 gui=bold cterm=bold
 hi Terminal guifg=#f1f1f0 ctermfg=255 guibg=#282a36 ctermbg=236 gui=NONE cterm=NONE
 hi Title guifg=#7587a6 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Todo guifg=#b294bb ctermfg=139 guibg=NONE ctermbg=NONE gui=bold,italic cterm=bold,italic

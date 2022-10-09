@@ -102,7 +102,7 @@ highlights:
   Structure: "yellow"
   TabLine: "line_grey bg"
   TabLineFill: "- bg"
-  TabLineSel: "line_grey blue b"
+  TabLineSel: "bg blue b"
   Terminal: "white black"
   Title: "blue"
   Todo: "purple - bi"
