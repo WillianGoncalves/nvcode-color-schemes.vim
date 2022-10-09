@@ -19,6 +19,9 @@ palette:
   orange: '#b3785d'
   pink  : '#c47ebd'
   search: '#32ff7e'
+  red_signs: '#ad3440'
+  green_signs: '#309c46'
+  yellow_signs: '#e8c33c'
 
 highlights:
   Boolean: "red"
@@ -34,8 +37,8 @@ highlights:
   CursorLine: "- gray2"
   CursorLineNr: "gray5 gray2 b"
   Define: "blue"
-  DiagnosticError: "red"
-  DiagnosticWarn: "yellow"
+  DiagnosticError: "red_signs"
+  DiagnosticWarn: "yellow_signs"
   DiffAdd: "gray3 green"
   DiffChange: "gray3 yellow"
   DiffDelete: "gray3 red"
@@ -85,9 +88,9 @@ highlights:
   SpellRare: "- - u"
   Statement: "blue"
   StatusLine: "gray5 gray3"
-  StatusLineDiffAdd: "green gray2"
-  StatusLineDiffChange: "yellow gray2"
-  StatusLineDiffDelete: "red gray2"
+  StatusLineDiffAdd: "green_signs gray2"
+  StatusLineDiffChange: "yellow_signs gray2"
+  StatusLineDiffDelete: "red_signs gray2"
   StatusLineNC: "gray3"
   StatusLineTerm: "- -"
   StatusLineTermNC: "- -"
@@ -193,9 +196,9 @@ highlights:
   diffAdded: "green"
   diffRemoved: "red"
 
-  GitGutterAdd: "green"
-  GitGutterChange: "yellow"
-  GitGutterDelete: "red"
+  GitGutterAdd: "green_signs"
+  GitGutterChange: "yellow_signs"
+  GitGutterDelete: "red_signs"
 
   SignifySignAdd: "green"
   SignifySignChange: "yellow"

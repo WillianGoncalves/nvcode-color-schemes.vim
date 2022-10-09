@@ -20,8 +20,8 @@ hi CursorColumn guifg=NONE ctermfg=NONE guibg=#232936 ctermbg=236 gui=NONE cterm
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#232936 ctermbg=236 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#9aa7bd ctermfg=109 guibg=#232936 ctermbg=236 gui=bold cterm=bold
 hi Define guifg=#608cc3 ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiagnosticError guifg=#b15e7c ctermfg=132 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiagnosticWarn guifg=#b5a262 ctermfg=143 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticError guifg=#ad3440 ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticWarn guifg=#e8c33c ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffAdd guifg=#323c4d ctermfg=237 guibg=#709d6c ctermbg=71 gui=NONE cterm=NONE
 hi DiffChange guifg=#323c4d ctermfg=237 guibg=#b5a262 ctermbg=143 gui=NONE cterm=NONE
 hi DiffDelete guifg=#323c4d ctermfg=237 guibg=#b15e7c ctermbg=132 gui=NONE cterm=NONE
@@ -71,9 +71,9 @@ hi SpellLocal guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cter
 hi SpellRare guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi Statement guifg=#608cc3 ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StatusLine guifg=#9aa7bd ctermfg=109 guibg=#323c4d ctermbg=237 gui=NONE cterm=NONE
-hi StatusLineDiffAdd guifg=#709d6c ctermfg=71 guibg=#232936 ctermbg=236 gui=NONE cterm=NONE
-hi StatusLineDiffChange guifg=#b5a262 ctermfg=143 guibg=#232936 ctermbg=236 gui=NONE cterm=NONE
-hi StatusLineDiffDelete guifg=#b15e7c ctermfg=132 guibg=#232936 ctermbg=236 gui=NONE cterm=NONE
+hi StatusLineDiffAdd guifg=#309c46 ctermfg=71 guibg=#232936 ctermbg=236 gui=NONE cterm=NONE
+hi StatusLineDiffChange guifg=#e8c33c ctermfg=185 guibg=#232936 ctermbg=236 gui=NONE cterm=NONE
+hi StatusLineDiffDelete guifg=#ad3440 ctermfg=131 guibg=#232936 ctermbg=236 gui=NONE cterm=NONE
 hi StatusLineNC guifg=#323c4d ctermfg=237 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StatusLineTerm guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StatusLineTermNC guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -173,9 +173,9 @@ hi rubyStringDelimiter guifg=#709d6c ctermfg=71 guibg=NONE ctermbg=NONE gui=NONE
 hi rubyRegexpSpecial guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffAdded guifg=#709d6c ctermfg=71 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi diffRemoved guifg=#b15e7c ctermfg=132 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi GitGutterAdd guifg=#709d6c ctermfg=71 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi GitGutterChange guifg=#b5a262 ctermfg=143 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi GitGutterDelete guifg=#b15e7c ctermfg=132 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitGutterAdd guifg=#309c46 ctermfg=71 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitGutterChange guifg=#e8c33c ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi GitGutterDelete guifg=#ad3440 ctermfg=131 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SignifySignAdd guifg=#709d6c ctermfg=71 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SignifySignChange guifg=#b5a262 ctermfg=143 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SignifySignDelete guifg=#b15e7c ctermfg=132 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
