@@ -21,7 +21,7 @@ hi CursorLine guifg=NONE ctermfg=NONE guibg=#191919 ctermbg=234 gui=NONE cterm=N
 hi CursorLineNr guifg=#f1f1f0 ctermfg=255 guibg=NONE ctermbg=NONE gui=bold cterm=bold
 hi Define guifg=#b294bb ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiagnosticError guifg=#cf7777 ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi DiagnosticWarning guifg=#d3b373 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticWarn guifg=#d3b373 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffAdd guifg=#282a36 ctermfg=236 guibg=#849c84 ctermbg=108 gui=NONE cterm=NONE
 hi DiffChange guifg=#d3b373 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi DiffDelete guifg=#282a36 ctermfg=236 guibg=#cf7777 ctermbg=174 gui=NONE cterm=NONE

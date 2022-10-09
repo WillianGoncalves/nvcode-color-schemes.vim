@@ -35,7 +35,7 @@ highlights:
   CursorLineNr: "gray5 gray2 b"
   Define: "blue"
   DiagnosticError: "red"
-  DiagnosticWarning: "yellow"
+  DiagnosticWarn: "yellow"
   DiffAdd: "gray3 green"
   DiffChange: "gray3 yellow"
   DiffDelete: "gray3 red"
