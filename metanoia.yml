@@ -39,6 +39,8 @@ highlights:
   CursorLine: "- bg_darken"
   CursorLineNr: "white - b"
   Define: "purple"
+  DiagnosticError: "red"
+  DiagnosticWarning: "yellow"
   DiffAdd: "black green"
   DiffChange: "yellow -"
   DiffDelete: "black red"
