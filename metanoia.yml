@@ -4,7 +4,7 @@ information:
   author: "Sinuhe Shin <sinuheshin@gmail.com>"
 
 palette:
-  fg: "#eff0eb"
+  fg: "#eeeeee"
   bg: "#1d1d1d"
   bg_darken: "#191919"
   red: "#CF7777"
@@ -13,7 +13,7 @@ palette:
   yellow: "#d3b373"
   orange: "#b98046"
   blue: "#7587a6"
-  purple: "#ab71bd"
+  purple: "#a97bb8"
   white: "#f1f1f0"
   black: "#282a36"
   line_grey: "#606580"
@@ -29,7 +29,7 @@ palette:
   yellow_signs: '#e8c33c'
 
 highlights:
-  Boolean: "blue"
+  Boolean: "red"
   Character: "green"
   CmpItemAbbrMatch: "search"
   ColorColumn: "- cursor_grey"
@@ -69,7 +69,7 @@ highlights:
   NonText: "special_grey"
   Normal: "fg bg"
   NormalFloat: "blue bg"
-  Number: "orange"
+  Number: "red"
   Operator: "purple"
   Pmenu: "white menu_grey"
   PmenuSbar: "- special_grey"
