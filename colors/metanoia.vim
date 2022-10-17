@@ -45,7 +45,7 @@ hi LineNr guifg=#4b5263 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Macro guifg=#a97bb8 ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=#7587a6 ctermfg=103 guibg=NONE ctermbg=NONE gui=underline cterm=underline
 hi NonText guifg=#3b4048 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Normal guifg=#eeeeee ctermfg=255 guibg=#1d1d1d ctermbg=234 gui=NONE cterm=NONE
+hi Normal guifg=#cccccc ctermfg=252 guibg=#1d1d1d ctermbg=234 gui=NONE cterm=NONE
 hi NormalFloat guifg=#7587a6 ctermfg=103 guibg=#1d1d1d ctermbg=234 gui=NONE cterm=NONE
 hi Number guifg=#cf7777 ctermfg=174 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Operator guifg=#a97bb8 ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

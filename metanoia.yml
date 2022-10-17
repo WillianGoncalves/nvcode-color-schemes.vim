@@ -4,7 +4,7 @@ information:
   author: "Sinuhe Shin <sinuheshin@gmail.com>"
 
 palette:
-  fg: "#eeeeee"
+  fg: "#cccccc"
   bg: "#1d1d1d"
   bg_darken: "#191919"
   red: "#CF7777"
