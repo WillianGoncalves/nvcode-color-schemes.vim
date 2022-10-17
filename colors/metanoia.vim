@@ -39,7 +39,7 @@ hi Function guifg=#d3b373 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi Identifier guifg=#a97bb8 ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi IncSearch guifg=#282a36 ctermfg=236 guibg=#32ff7e ctermbg=84 gui=NONE cterm=NONE
 hi Include guifg=#a97bb8 ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Keyword guifg=#7587a6 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Keyword guifg=#849c84 ctermfg=108 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Label guifg=#7587a6 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LineNr guifg=#4b5263 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Macro guifg=#a97bb8 ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -60,7 +60,7 @@ hi QuickFixLine guifg=#282a36 ctermfg=236 guibg=#606580 ctermbg=60 gui=NONE cter
 hi Repeat guifg=#a97bb8 ctermfg=139 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Search guifg=#282a36 ctermfg=236 guibg=#32ff7e ctermbg=84 gui=NONE cterm=NONE
 hi SignColumn guifg=NONE ctermfg=NONE guibg=#1d1d1d ctermbg=234 gui=NONE cterm=NONE
-hi Special guifg=#7587a6 ctermfg=103 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi Special guifg=#7587a6 ctermfg=103 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpecialComment guifg=#606580 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpecialKey guifg=#3b4048 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellBad guifg=#bf4040 ctermfg=131 guibg=NONE ctermbg=NONE gui=underline cterm=underline
