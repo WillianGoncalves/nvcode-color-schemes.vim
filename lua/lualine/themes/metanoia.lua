@@ -32,11 +32,11 @@ return {
 		z = { bg = '#d3b373', fg = '#1d1d1d', gui = 'NONE' },
 	},
 	command = {
-		a = { bg = '#b294bb', fg = '#1d1d1d', gui = 'bold' },
+		a = { bg = '#ab71bd', fg = '#1d1d1d', gui = 'bold' },
 		b = { bg = '#191919', fg = '#b98046', gui = 'NONE' },
 		c = { bg = '#191919', fg = '#606580', gui = 'NONE' },
 		x = { bg = '#191919', fg = '#606580', gui = 'NONE' },
 		y = { bg = '#191919', fg = '#b98046', gui = 'NONE' },
-		z = { bg = '#b294bb', fg = '#1d1d1d', gui = 'NONE' },
+		z = { bg = '#ab71bd', fg = '#1d1d1d', gui = 'NONE' },
 	},
 }
