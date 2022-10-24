@@ -79,7 +79,7 @@ highlights:
   Repeat: "blue"
   Search: "gray1 search"
   SignColumn: "gray2 gray1"
-  Special: "cyan - i"
+  Special: "cyan -"
   SpecialComment: "cyan - i"
   SpecialKey: "gray4"
   SpellBad: "red - u"

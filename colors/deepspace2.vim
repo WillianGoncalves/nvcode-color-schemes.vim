@@ -62,7 +62,7 @@ hi QuickFixLine guifg=#1b202a ctermfg=235 guibg=#b5a262 ctermbg=143 gui=NONE cte
 hi Repeat guifg=#608cc3 ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Search guifg=#1b202a ctermfg=235 guibg=#32ff7e ctermbg=84 gui=NONE cterm=NONE
 hi SignColumn guifg=#232936 ctermfg=236 guibg=#1b202a ctermbg=235 gui=NONE cterm=NONE
-hi Special guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=italic cterm=italic
+hi Special guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpecialComment guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=italic cterm=italic
 hi SpecialKey guifg=#51617d ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellBad guifg=#b15e7c ctermfg=132 guibg=NONE ctermbg=NONE gui=underline cterm=underline
