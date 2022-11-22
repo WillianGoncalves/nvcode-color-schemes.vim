@@ -296,5 +296,5 @@ hi gitcommitSelected guifg=#51617d ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE c
 hi gitcommitDiscardedArrow guifg=#b15e7c ctermfg=132 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi gitcommitSelectedArrow guifg=#709d6c ctermfg=71 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi gitcommitUnmergedArrow guifg=#b5a262 ctermfg=143 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi tabline_a_normal guifg=#1b202a ctermfg=235 guibg=#9aa7bd ctermbg=109 gui=NONE cterm=NONE
-hi tabline_b_normal guifg=#232936 ctermfg=236 guibg=#51617d ctermbg=60 gui=NONE cterm=NONE
+hi tabline_a_normal guifg=#9aa7bd ctermfg=109 guibg=#1b202a ctermbg=235 gui=NONE cterm=NONE
+hi tabline_b_normal guifg=#51617d ctermfg=60 guibg=#232936 ctermbg=236 gui=NONE cterm=NONE
