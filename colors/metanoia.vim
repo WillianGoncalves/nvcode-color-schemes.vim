@@ -242,3 +242,5 @@ hi VimwikiList guifg=#b98046 ctermfg=137 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi VimwikiTag guifg=#b98046 ctermfg=137 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VimwikiMarkers guifg=#1d1d1d ctermfg=234 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VimWikiMarkers guifg=#3b4048 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi tabline_a_normal guifg=#b98046 ctermfg=137 guibg=#1d1d1d ctermbg=234 gui=NONE cterm=NONE
+hi tabline_b_normal guifg=#606580 ctermfg=60 guibg=#191919 ctermbg=234 gui=NONE cterm=NONE

@@ -334,6 +334,8 @@ highlights:
   gitcommitDiscardedArrow: "red"
   gitcommitSelectedArrow: "green"
   gitcommitUnmergedArrow: "yellow"
+  tabline_a_normal: "gray1 gray5"
+  tabline_b_normal: "gray2 gray4"
 
 lightline:
   NormalLeft:

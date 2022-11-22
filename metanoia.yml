@@ -304,6 +304,9 @@ highlights:
   VimwikiMarkers: "bg"
   VimWikiMarkers: "special_grey"
 
+  tabline_a_normal: "orange bg"
+  tabline_b_normal: "line_grey bg_darken"
+
 lightline:
   NormalLeft:
     - "bg blue"
