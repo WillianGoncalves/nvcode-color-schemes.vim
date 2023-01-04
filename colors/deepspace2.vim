@@ -42,6 +42,7 @@ hi Include guifg=#56adb7 ctermfg=73 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Keyword guifg=#608cc3 ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Label guifg=#608cc3 ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LineNr guifg=#9aa7bd ctermfg=109 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LspSignatureActiveParameter guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=underline,bold cterm=underline,bold
 hi Macro guifg=#608cc3 ctermfg=68 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi MatchParen guifg=#c47ebd ctermfg=175 guibg=#232936 ctermbg=236 gui=NONE cterm=NONE
 hi ModeMsg guifg=#709d6c ctermfg=71 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

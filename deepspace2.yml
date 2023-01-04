@@ -59,6 +59,7 @@ highlights:
   Keyword: "blue"
   Label: "blue"
   LineNr: "gray5"
+  LspSignatureActiveParameter: "- - ub"
   Macro: "blue"
   MatchParen: "pink gray2"
   ModeMsg: "green"
