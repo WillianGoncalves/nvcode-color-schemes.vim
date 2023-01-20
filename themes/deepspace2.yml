@@ -2,7 +2,7 @@
 information:
   name: deepspace2
   background: dark
-  author: ""
+  author: "https://github.com/WillianGoncalves"
 
 palette:
   gray1 : '#1b202a'

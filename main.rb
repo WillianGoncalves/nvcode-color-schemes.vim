@@ -1,32 +1,25 @@
 #!/usr/bin/env ruby
 
-require 'yaml'
 require_relative './lib/highlight'
+require_relative './lib/reader'
 
-data = YAML.load(ARGF, symbolize_names: true)
+reader = Reader.new(ARGF)
+highlights = reader.highlights.map { |e| Highlight.new(reader.palette, *e) }
 
-information = data[:information]
-palette = data[:palette]
-highlights = data[:highlights]
-terminal = data[:terminal]
+puts <<HEADER
+" Maintainer: #{reader.information[:author]}
 
-highlights = highlights.map { |e| Highlight.new(palette, *e) }
-
-puts <<EOL
-" Maintainer: #{information[:author]}
-
-set background=#{information[:background]}
+set background=#{reader.information[:background]}
 hi clear
 if exists('syntax_on')
   syntax reset
 endif
-let g:colors_name='#{information[:name]}'
-
-EOL
+let g:colors_name='#{reader.information[:name]}'
+HEADER
 
 puts highlights
 
-colors = terminal&.split(' ') || []
+colors = reader.terminal&.split(' ') || []
 
 exit unless colors.size == 16
 

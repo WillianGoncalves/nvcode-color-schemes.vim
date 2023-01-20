@@ -1,4 +1,4 @@
-" Maintainer: 
+" Maintainer: https://github.com/WillianGoncalves
 
 set background=dark
 hi clear
@@ -6,7 +6,6 @@ if exists('syntax_on')
   syntax reset
 endif
 let g:colors_name='deepspace2'
-
 hi Boolean guifg=#b15e7c ctermfg=132 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Character guifg=#709d6c ctermfg=71 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi CmpItemAbbrMatch guifg=#32ff7e ctermfg=84 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
