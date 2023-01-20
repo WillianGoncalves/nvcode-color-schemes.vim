@@ -72,11 +72,11 @@ def hsl_to_rgb(h, s, l)
   return [r, g, b].map { |e| e * 255 }
 end
 
-def get_color(color)
+def get_color(color, palette)
   if color.start_with?('#')
     return hex_to_rgb(color)
   end
-  r = $palette[color.to_sym]
+  r = palette[color.to_sym]
   error("Color not found '#{color}'") if !r
   if r.kind_of?(Array)
     return hsl_to_rgb(*r)

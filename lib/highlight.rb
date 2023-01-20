@@ -1,11 +1,13 @@
-require_relative 'get_color.rb'
+require_relative 'get_color'
 
 class Highlight
-  attr_accessor :name, :params
+  attr_accessor :name, :params, :palette
 
-  def initialize(name, conf)
+  def initialize(palette, name, conf)
+    @palette = palette
     @name = name.to_s
-    return if !conf
+    return unless conf
+
     fg, bg, style, sp = conf.split(' ')
     @params = {}
     @params.merge!(hi_color('fg', fg))
@@ -22,9 +24,10 @@ class Highlight
 
   def hi_color(kind, color)
     return {} if color == '.'
-    return {} if kind == 'sp' and !color
-    if color and color != '-'
-      rgb = get_color(color)
+    return {} if kind == 'sp' && !color
+
+    if color && color != '-'
+      rgb = get_color(color, @palette)
       rgb.map!(&:round)
       color = rgb_to_hex(*rgb)
       c_color = rgb_to_x256(*rgb)
@@ -32,6 +35,7 @@ class Highlight
       color = 'NONE'
       c_color = 'NONE'
     end
+
     params = { 'gui' + kind => color }
     params['cterm' + kind] = c_color unless kind == 'sp'
     return params
