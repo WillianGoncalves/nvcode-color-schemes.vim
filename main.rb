@@ -2,19 +2,11 @@
 
 require_relative './lib/reader'
 require_relative './lib/writers/main_writer'
+require_relative './lib/writers/lualine_writer'
 
 filename = ARGV.first
 reader = Reader.new(ARGF)
-w = MainWriter.new(reader, filename)
-w.create_file
-
-# colors = reader.terminal&.split(' ') || []
-#
-# exit unless colors.size == 16
-#
-# colors.map! do |e|
-#   rgb = get_color(e).map(&:round)
-#   "'%s'" % rgb_to_hex(*rgb)
-# end
-#
-# puts "\nlet g:terminal_ansi_colors = [ %s ]" % colors.join(', ')
+main_config_writer = MainWriter.new(reader, filename)
+main_config_writer.create_file
+lualine_config_writer = LualineWriter.new(reader, filename)
+lualine_config_writer.create_file
