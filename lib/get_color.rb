@@ -40,5 +40,5 @@ def get_color(color, palette)
   hex = palette[color.to_sym]
   raise "Color not found '#{color}'" unless hex
 
-  hex_to_rgb(hex)
+  hex_to_rgb(hex).map(&:round)
 end

@@ -28,7 +28,6 @@ class Highlight
 
     if color && color != '-'
       rgb = get_color(color, @palette)
-      rgb.map!(&:round)
       color = rgb_to_hex(*rgb)
       c_color = rgb_to_x256(*rgb)
     else
