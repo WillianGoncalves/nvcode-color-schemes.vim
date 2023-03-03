@@ -4,12 +4,13 @@ selected_theme=$(fd '\.yml$' './themes/' -x echo {/.} | fzf;)
 
 # the name of the test theme
 test_theme="test"
+plugin_folder="$HOME/.local/share/nvim/site/pack/packer/start/nvcode-color-schemes.vim"
 
-main_link_target="$HOME/Projects/nvcode-color-schemes.vim/colors/${selected_theme}.vim"
-main_link_name="$HOME/.local/share/nvim/site/pack/packer/start/nvcode-color-schemes.vim/colors/${test_theme}.vim"
+main_link_target="$(pwd)/colors/${selected_theme}.vim"
+main_link_name="${plugin_folder}/colors/${test_theme}.vim"
 
-lualine_link_target="$HOME/Projects/nvcode-color-schemes.vim/lua/lualine/themes/${selected_theme}.lua"
-lualine_link_name="$HOME/.local/share/nvim/site/pack/packer/start/nvcode-color-schemes.vim/lua/lualine/themes/${test_theme}.lua"
+lualine_link_target="$(pwd)/lua/lualine/themes/${selected_theme}.lua"
+lualine_link_name="${plugin_folder}/lua/lualine/themes/${test_theme}.lua"
 
 ln -sf $main_link_target $main_link_name
 ln -sf $lualine_link_target $lualine_link_name
