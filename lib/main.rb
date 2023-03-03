@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
-require_relative './lib/reader'
-require_relative './lib/writers/main_writer'
-require_relative './lib/writers/lualine_writer'
+require_relative './reader'
+require_relative './writers/main_writer'
+require_relative './writers/lualine_writer'
 
 begin
   filename = ARGV.first
