@@ -39,4 +39,5 @@ return {
 		y = { bg = '#232936', fg = '#51617d', gui = 'NONE' },
 		z = { bg = '#c47ebd', fg = '#232936', gui = 'NONE' },
 	},
+
 }

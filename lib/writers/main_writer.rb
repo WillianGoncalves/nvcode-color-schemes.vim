@@ -4,6 +4,7 @@ require_relative '../writer'
 class MainWriter < Writer
   def initialize(reader, path_to_theme)
     filename = File.basename(path_to_theme, '.yml')
+    # file will be stored at: ~/.local/share/nvim/site/pack/packer/start/nvcode-color-schemes.vim/color.local/share/nvim/site/pack/packer/start/nvcode-color-schemes.vim/colors
     super(reader, "#{Dir.pwd}/colors/#{filename}.vim")
   end
 
